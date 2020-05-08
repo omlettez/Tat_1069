@@ -1,0 +1,6 @@
+Life Cycle
+6.1 Start() เรียกก่อนที่เฟรมแรกจะอัพเดท ทำงานครั้งเดียว
+6.2 Update() มันจะทำงานไปเรื่อยๆ
+6.3 FixedUpdate() อะไรที่เกี่ยวกับฟิสิกส์จะใช้อันนี้
+6.4 OnCollision() เอาไว้เช็คว่าวัตถุชนมั้ย
+6.5 Awake() > Start() > OnTrigger() > OnCollision() > FixedUpdate() > Update() 
